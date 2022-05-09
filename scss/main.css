@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lobster&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body {
+  width: 100%;
+  height: 100vh;
+}
+
+.body .second-img {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 30rem;
+  height: 100vh;
+  background: url("/typing_app/images/Snapchat-1389387433.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 30% 30%;
+}
+
+.body img {
+  position: absolute;
+  top: 0%;
+  left: 23%;
+  margin: 0px auto;
+  width: 25%;
+  height: 25%;
+  -webkit-filter: drop-shadow(1px 1px 2px #1e1e1e);
+          filter: drop-shadow(1px 1px 2px #1e1e1e);
+}
+
+.body .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  height: 28rem;
+  margin-top: 5rem;
+}
+
+.body .text .msg {
+  margin-top: 4.3rem;
+  height: 8rem;
+  padding: .2rem 1rem;
+  width: 90%;
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-family: 'Bakbak One', cursive;
+}
+
+.body .text textarea {
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  width: 80%;
+  height: 15rem;
+  padding: 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid #4A8BBE;
+}
+
+.body .text textarea::-webkit-input-placeholder {
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1.5px;
+  font-style: italic;
+}
+
+.body .text textarea:-ms-input-placeholder {
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1.5px;
+  font-style: italic;
+}
+
+.body .text textarea::-ms-input-placeholder {
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1.5px;
+  font-style: italic;
+}
+
+.body .text textarea::placeholder {
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1.5px;
+  font-style: italic;
+}
+
+.body .text button {
+  margin-top: 1.5rem;
+  padding: .5rem .7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 1px 2px black;
+          box-shadow: 1px 1px 2px black;
+  background-color: transparent;
+  margin: .3rem;
+  margin-top: 1.3rem;
+}
+
+.body .text button:hover {
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+  cursor: pointer;
+  background-color: gold;
+}
+
+.body .text #reset {
+  background-color: gold;
+}
+
+.text-shadow {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.55) 1px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.55) 1px 3px 8px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+/*# sourceMappingURL=main.css.map */
